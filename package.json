@@ -4,11 +4,9 @@
   "private": true,
   "scripts": {
     "format": "prettier --write notes",
-    "count": "count-files notes",
     "lint:md": "markdownlint notes/**/*.md"
   },
   "dependencies": {
-    "count-files": "^2.6.2",
     "markdownlint-cli": "^0.45.0",
     "prettier": "^3.6.2"
   }
