@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "format": "prettier --write notes",
-    "lint:md": "markdownlint notes/**/*.md"
+    "lint:md": "markdownlint notes/**/*.md",
+    "prepare": "bun run format && bun run lint:md"
   },
   "dependencies": {
     "markdownlint-cli": "^0.45.0",
